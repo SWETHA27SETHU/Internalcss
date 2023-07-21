@@ -1,0 +1,47 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form With Html & Css</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <div>
+        <form>
+            <h4 class="text-warning text-center pt-5">Registration Page</h4>
+            <label> First Name:</label>
+            <input type="text" name="firstname"class="input" placeholder="Enter First Name" size="12" /> <br> <br>
+            <label> Last name:</label>
+            <input type="text" name="lastname"class="input" placeholder="Enter Last Name" size="12" /> <br /> <br />
+            <label> dob:</label>
+            <input type="date" id="data" /> <br /> <br />
+            <label> Age:</label>
+            <input type="text" class="input" id="Age" placeholder="Enter Age" maxlength="3"> <br /> <br />
+            <label> Gender:</label>
+            <input type="radio" name="gender" id="male">
+            <label for="male"> Male</label>
+
+            <input type="radio" name="gender" id="female">
+            <label for="female"> Female</label> <br /> <br />
+            <label> PhoneNumber:</label>
+            <input type="number" id="PhoneNumber" maxlength="10" /> <br /> <br />
+            <label>Email </label>
+            <input type="text" class="input" name="email" placeholder="EMAIL" />
+
+            <label>username</label>
+            <input type="text" class="input" name="username" placeholder="USERNAME" /><br /><br />
+
+            <label>Password </label>
+            <input type="password" class="input" name="password" placeholder="PASSWORD" /><br /><br />
+
+            <label>ConfirmPassword</label>
+            <input type="password" class="input" name="confirm" placeholder="CONFIRM PASSWORD" /><br /><br />
+
+            <button type="submit">submit</button>
+        </form>
+    </div>
+</body>
+</html>

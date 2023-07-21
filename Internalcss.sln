@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Internalcss", "Internalcss.csproj", "{A7EC9D7D-D3BD-4C26-B8E3-1CF43826F4FD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A7EC9D7D-D3BD-4C26-B8E3-1CF43826F4FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7EC9D7D-D3BD-4C26-B8E3-1CF43826F4FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7EC9D7D-D3BD-4C26-B8E3-1CF43826F4FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7EC9D7D-D3BD-4C26-B8E3-1CF43826F4FD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BBBC7F2D-D7D5-42F7-8F63-287D23263CD9}
+	EndGlobalSection
+EndGlobal
